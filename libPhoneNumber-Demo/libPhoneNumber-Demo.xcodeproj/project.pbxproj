@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -68,6 +68,7 @@
 		94AEB65224C2203A00204E11 /* PhoneUtilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneUtilView.swift; sourceTree = "<group>"; };
 		94AEB65424C2204400204E11 /* FormatterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterView.swift; sourceTree = "<group>"; };
 		94AEB65824C2517600204E11 /* libPhoneNumber-iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "libPhoneNumber-iOS.png"; sourceTree = "<group>"; };
+		C85DC9C52B35489400B62917 /* libPhoneNumber-Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libPhoneNumber-Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		F16B3C7B814B59B93E4D0951 /* Pods_libPhoneNumber_Demo_libPhoneNumber_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libPhoneNumber_Demo_libPhoneNumber_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BAA7C26BB7DAD929FDAFB6 /* Pods-libPhoneNumber-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libPhoneNumber-Demo.debug.xcconfig"; path = "Target Support Files/Pods-libPhoneNumber-Demo/Pods-libPhoneNumber-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +152,7 @@
 				94AEB65424C2204400204E11 /* FormatterView.swift */,
 				943E09BC24C60CFB00A80B5B /* ShortNumberUtilView.swift */,
 				943E09BE24C60D4500A80B5B /* Locales.swift */,
+				C85DC9C52B35489400B62917 /* libPhoneNumber-Demo-Bridging-Header.h */,
 			);
 			path = "libPhoneNumber-Demo";
 			sourceTree = "<group>";

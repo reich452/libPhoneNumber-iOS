@@ -18,7 +18,7 @@ struct PhoneUtilView: View {
   @State private var searchMade: Bool = false
   @State private var formatSelection = 0
   @State private var formattedPhoneNumber: String = ""
-  let phoneUtil: NBPhoneNumberUtil = NBPhoneNumberUtil()
+  let phoneUtil: NBPhoneNumberUtil = NBPhoneNumberUtil.sharedInstance()!
 
   var body: some View {
     VStack {
@@ -31,7 +31,7 @@ struct PhoneUtilView: View {
 
         Section(header: Text("(Optional) Format Phone Number")) {
           Picker("Locale Options", selection: $formatSelection) {
-            ForEach(0..<formatOptions.count) { index in
+              ForEach(0..<formatOptions.count, id: \.self) { index in
               Text(formatOptions[index])
                 .tag(index)
             }
