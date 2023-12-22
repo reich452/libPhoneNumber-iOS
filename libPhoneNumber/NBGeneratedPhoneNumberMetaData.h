@@ -4359,4 +4359,4 @@ z_const Bytef kPhoneNumberMetaData[] = {
   0x07, 0x6e, 0x7d, 0xde, 0x8d, 0x93, 0x48, 0x05, 0x00
 };
 z_const size_t kPhoneNumberMetaDataCompressedLength = sizeof(kPhoneNumberMetaData);
-z_const size_t kPhoneNumberMetaDataExpandedLength = 346259;
+extern z_const size_t kPhoneNumberMetaDataExpandedLength;
