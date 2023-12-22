@@ -1,1 +1,1 @@
-static size_t kPhoneNumberMetaDataForTestingExpandedLength = 34034;
+extern size_t kPhoneNumberMetaDataForTestingExpandedLength;

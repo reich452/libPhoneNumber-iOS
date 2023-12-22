@@ -1444,4 +1444,4 @@ z_const Bytef kShortNumberMetaData[] = {
   0x00
 };
 z_const size_t kShortNumberMetaDataCompressedLength = sizeof(kShortNumberMetaData);
-z_const size_t kShortNumberMetaDataExpandedLength = 154387;
+extern z_const size_t kShortNumberMetaDataExpandedLength;

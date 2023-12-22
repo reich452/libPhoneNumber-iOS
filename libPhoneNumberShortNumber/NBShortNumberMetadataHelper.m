@@ -29,6 +29,8 @@ static NSString *StringByTrimming(NSString *aString) {
   NSDictionary *_shortNumberDataMap;
 }
 
+z_const size_t kShortNumberMetaDataExpandedLength = 154387;
+
 - (instancetype)init {
   return [self initWithZippedDataBytes:kShortNumberMetaData
                       compressedLength:kShortNumberMetaDataCompressedLength

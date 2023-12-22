@@ -28,6 +28,8 @@
 
 @implementation NBShortNumberInfoTest
 
+size_t kPhoneNumberMetaDataForTestingExpandedLength = 34034;
+
 - (void)setUp {
   [super setUp];
   if (self != nil) {

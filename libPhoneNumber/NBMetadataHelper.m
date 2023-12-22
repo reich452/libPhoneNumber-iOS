@@ -36,6 +36,8 @@ static NSString *StringByTrimming(NSString *aString) {
   NSDictionary *_countryCodeToCountryNumberDictionary;
 }
 
+z_const size_t kPhoneNumberMetaDataExpandedLength = 346259;
+
 - (instancetype)init {
   return [self initWithZippedDataBytes:kPhoneNumberMetaData
                       compressedLength:kPhoneNumberMetaDataCompressedLength

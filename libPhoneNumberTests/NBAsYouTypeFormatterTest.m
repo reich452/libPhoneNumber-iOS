@@ -20,6 +20,8 @@
   NBMetadataHelper *_helper;
 }
 
+size_t kPhoneNumberMetaDataForTestingExpandedLength = 34034;
+
 - (void)setUp {
   [super setUp];
 
