@@ -133,6 +133,6 @@ let phoneNumbers: [String] = [
 ]
 
 private var geocoder: NBPhoneNumberOfflineGeocoder = NBPhoneNumberOfflineGeocoder()
-private var phoneUtil: NBPhoneNumberUtil = NBPhoneNumberUtil()
+private var phoneUtil: NBPhoneNumberUtil = NBPhoneNumberUtil.sharedInstance()!
 var regionDescriptions: [[String?]] = []
 var runtimeArray: [CGFloat] = []

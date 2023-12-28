@@ -16,14 +16,14 @@ struct GeocodingSearchView: View {
   @State private var regionDescription: String = ""
 
   private let geocoder = NBPhoneNumberOfflineGeocoder()
-  private let phoneUtil = NBPhoneNumberUtil()
+  private let phoneUtil = NBPhoneNumberUtil.sharedInstance()!
 
   var body: some View {
     VStack {
       Form {
         Section(header: Text("Locale Options")) {
           Picker("Locale Options", selection: $localeSelection) {
-            ForEach(0..<locales.count) { index in
+            ForEach(0..<locales.count, id: \.self) { index in
               Text(locales[index].language)
                 .tag(index)
             }
