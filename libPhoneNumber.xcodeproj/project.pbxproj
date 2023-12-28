@@ -629,9 +629,10 @@
 		FD7A0613167715A0004BBEB6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 0830;
 				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1510;
 				ORGANIZATIONNAME = Google;
 				TargetAttributes = {
 					0FC0D36324A29F510087AFCF = {
